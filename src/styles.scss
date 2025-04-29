@@ -1,0 +1,48 @@
+@import "fonts";
+:root {
+  --dark-color: #000000;
+  --light-color: #fff;
+  --primary-color: #ae7aff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "JetBrains Mono", sans-serif;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+.skill-tag {
+  border: 1px solid var(--light-color);
+  border-radius: 4px;
+  padding: 0 8px;
+  display: inline;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 700;
+  height: 24px;
+}
+.btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--dark-color);
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+.h6 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 800;
+}
+.subtitle {
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400;
+}
