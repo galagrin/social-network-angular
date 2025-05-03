@@ -1,4 +1,4 @@
-import { HttpClient, withRequestsMadeViaParent } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { Profile } from '../interfaces/profile.interface';
 
