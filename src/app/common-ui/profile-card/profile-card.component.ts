@@ -9,5 +9,6 @@ import { ImgUrlPipe } from '../../helpers/pipes/img-url.pipe';
   styleUrl: './profile-card.component.scss',
 })
 export class ProfileCardComponent {
+  // Декоратор, позволяющий передавать данные в компонент из родительского компонента. передаем объект profile
   @Input() profile!: Profile;
 }

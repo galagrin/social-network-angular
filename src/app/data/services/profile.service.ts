@@ -11,6 +11,7 @@ export class ProfileService {
 
   constructor() {}
 
+  // Выполняем GET-запрос к URL и возвращаем массив объектов типа Profile.
   getTestsAccounts() {
     return this.http.get<Profile[]>(`${this.baseApiURL}account/test_accounts`);
   }
